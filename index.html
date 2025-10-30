@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linux Distros for Beginners</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Hi</h1>
+<body class="bg-gray-900 text-gray-100 font-sans">
+<header class="bg-gray-800 text-gray-100 shadow">
+  <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="index.html" class="text-emerald-400 text-xl font-bold brand-focus">Linux Guide</a>
+    <nav class="flex gap-4 text-sm">
+      <a href="index.html" aria-current="page" class="hover:text-emerald-300 text-emerald-400 font-semibold border-b-2 border-emerald-400 px-2 py-1 rounded">Home</a>
+      <a href="distros.html" class="hover:text-emerald-300 px-2 py-1 rounded brand-focus">Distros</a>
+      <a href="personalisation.html" class="hover:text-emerald-300 px-2 py-1 rounded brand-focus">Personalisation</a>
+      <a href="help.html" class="hover:text-emerald-300 px-2 py-1 rounded brand-focus">Help me</a>
+    </nav>
+  </div>
+</header>
+
+  <!-- Title (changed default font and used a dark looking theme) -->
+  <header class="bg-gray-800 p-6 text-center shadow-lg">
+    <h1 class="text-4xl font-bold text-emerald-400">Linux Distros for Beginners</h1>
+    <p class="text-gray-400 mt-2">A simple guide to get started with Linux</p>
+  </header>
+
+  <!-- Main container -->
+  <main class="max-w-3xl mx-auto mt-10 px-4">
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-emerald-300 mb-4">What is Linux?</h2>
+      <p class="text-gray-300 leading-relaxed">
+        Linux is an <b><em>operating system</em></b>, just like Windows or macOS. An OS is the main software that runs your 
+        computer and manages how programs and hardware work together. But what makes Linux special is that it's free, open-source and community-driven. That means anyone can download it,
+        use it or even cange it to suit their needs.<br >
+        <br />Instead of being owned by one company, Linux is built and improved by thousands of people around the world, and there are many versions of linux called <b>distributions</b> or 
+        <b>distros</b> for short, such as Linux Mint, or Zorin OS. Each distro has its own pupose and style, some are designed super easy for begginers, others focus on programming or gaming, etc.<br />
+        <br />Because Linux is so flexible and customisable, you can find it everywhere, from laptops to cars, and here we will help you choose the righ distro for your needs.
+        
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-semibold text-emerald-300 mb-4">Popular Beginner-Friendly Distros</h2>
+      <!-- The boxes are clickable, with "noopener noreferrer" added for security (prevents tabnabbing) -->
+      <div class="grid sm:grid-cols-2 gap-6">
+        
+        <!-- Ubuntu Card -->
+        <a href="https://ubuntu.com/" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="block bg-gray-800 p-5 rounded-xl shadow hover:shadow-emerald-400/30 hover:bg-gray-700 transition">
+          <h3 class="text-xl font-bold text-orange-400 mb-2">Ubuntu</h3>
+          <p class="text-gray-400 text-sm">
+            Very user-friendly, with great community support and easy installation.
+          </p>
+        </a>
+
+        <!-- Linux Mint Card -->
+        <a href="https://linuxmint.com/" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="block bg-gray-800 p-5 rounded-xl shadow hover:shadow-emerald-400/30 hover:bg-gray-700 transition">
+          <h3 class="text-xl font-bold text-green-400 mb-2">Linux Mint</h3>
+          <p class="text-gray-400 text-sm">
+            Ideal for users switching from Windows — clean interface and stability.
+          </p>
+        </a>
+
+        <!-- Zorin OS Card -->
+        <a href="https://zorin.com/os/" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="block bg-gray-800 p-5 rounded-xl shadow hover:shadow-emerald-400/30 hover:bg-gray-700 transition">
+          <h3 class="text-xl font-bold text-blue-400 mb-2">Zorin OS</h3>
+          <p class="text-gray-400 text-sm">
+            Looks and feels like Windows, perfect for first-time Linux users.
+          </p>
+        </a>
+
+        <!-- CachyOS Card -->
+        <a href="https://cachyos.org/" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="block bg-gray-800 p-5 rounded-xl shadow hover:shadow-emerald-400/30 hover:bg-gray-700 transition">
+          <h3 class="text-xl font-bold text-sky-400 mb-2">CachyOS</h3>
+          <p class="text-gray-400 text-sm">
+            Good for personalisation and gaming, it uses Arch Linux.
+          </p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center mt-12 py-6 text-gray-500 border-t border-gray-700">
+    © 2025 Linux Hobby Project 
+  </footer>
 </body>
 </html>
